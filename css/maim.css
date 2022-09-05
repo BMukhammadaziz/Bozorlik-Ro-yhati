@@ -1,0 +1,77 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Areal', sans-serif;
+    background: linear-gradient(to right, #c6ffdd, #fbd786, #f7797d);
+    font-size: 24px;
+    line-height: 1.5;
+}
+
+.container {
+    max-width: 1000px;
+    padding-left: 24px;
+    padding-right: 24px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.color {
+    border-radius: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 400px;
+    height: 200px;
+    background: linear-gradient(to right, #00b4db, #0083b0);
+}
+
+.heading {
+    text-align: center;
+    
+}
+
+.shopping-list-form {
+    max-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+} 
+
+.shopping-list-input {
+    background-color: #c6ffdd;
+    padding: 10px 15px;
+    border-radius: 30px;
+    border: 2px solid red;
+    margin-bottom: 20px;
+}
+
+.shopping-list-input:hover {
+    background-color: #f7797d;
+}
+
+.shopping-list {
+    border-radius: 40px;
+    background: linear-gradient(to right, #f12711, #f5af19);
+    width: 300px;
+}
+
+.shopping-btn {
+    background-color: chartreuse;
+    border-radius: 30px;
+    border: none;
+    padding: 10px 30px;
+    cursor: pointer;
+    transition: all ease 0.5s;
+} 
+
+.shopping-btn:hover {
+    background-color: aqua;
+    transform: scale(1.1);
+    cursor: pointer;
+}
